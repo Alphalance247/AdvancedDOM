@@ -10,20 +10,20 @@ function clickListener(){
 
 
 
-// var number = [];
-// var i = 0
-// function clickListener(){
+var number = [];
+var i = 0
+function clickListener(){
 
-// while (i < numberOfDrums){
-//     document.querySelectorAll(".drum")[i].addEventListener("click", clickListener);
-    // document.querySelectorAll(".drum")[i].classList.add("added-class")
-    // console.log(document.querySelectorAll(".drum")[i])
-    // i++
-// }
-// alert("i got clicked");
-// }
+while (i < numberOfDrums){
+    document.querySelectorAll(".drum")[i].addEventListener("click", clickListener);
+    document.querySelectorAll(".drum")[i].classList.add("added-class")
+    console.log(document.querySelectorAll(".drum")[i])
+    i++
+}
+alert("i got clicked");
+}
 
-// clickListener()
+clickListener()
 
 
 var allClick = document.querySelectorAll("button").length;
