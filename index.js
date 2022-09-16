@@ -1,12 +1,12 @@
-// var numberOfDrums = document.querySelectorAll(".drum").length;
-// var i = 0;
-// function clickListener(){
-//     alert("i got clicked");
-//     }
-//     while( i < numberOfDrums){ 
-//     document.querySelectorAll(".drum")[i].addEventListener("click", clickListener);
-//     i++;
-//     };
+var numberOfDrums = document.querySelectorAll(".drum").length;
+var i = 0;
+function clickListener(){
+    alert("i got clicked");
+    }
+    while( i < numberOfDrums){ 
+    document.querySelectorAll(".drum")[i].addEventListener("click", clickListener);
+    i++;
+    };
 
 
 
