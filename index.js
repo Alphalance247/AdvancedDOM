@@ -57,12 +57,12 @@ function eventListener() {
             case "k":
                 var audio = new Audio('sounds/crash.mp3');
                 audio.play();
-            break;
-            case "l":
-                var audio = new Audio('sounds/kick-bass.mp3');
-                audio.play();
-        default:
-            break;
+        //     break;
+        //     case "l":
+        //         var audio = new Audio('sounds/kick-bass.mp3');
+        //         audio.play();
+        // default:
+        //     break;
     }
 }
 
