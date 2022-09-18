@@ -84,10 +84,10 @@ document.addEventListener("keypress", function(event){
         audio.play();
         break;
     
-        // default:console.log(event)
-        // var audio = new Audio('sounds/tom-1.mp3');
-        // audio.play();
-        // break;
+        default:console.log(event)
+        var audio = new Audio('sounds/tom-1.mp3');
+        audio.play();
+        break;
     }
  })
 
