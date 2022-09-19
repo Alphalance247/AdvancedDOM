@@ -26,13 +26,35 @@
 // clickListener()
 
 
+// click-function
+
 var allClick = document.querySelectorAll(".drum").length;
 
 for(var i = 0; i < allClick; i++){
 document.querySelectorAll(".drum")[i].addEventListener("click",eventListener)
 };
 function eventListener() {
-     switch (this.innerHTML) {
+    makeSound(this.innerHTML);
+}
+
+
+
+
+// keyPress function
+document.addEventListener("keypress", function(event){
+    makeSound(event.key);
+ })
+
+
+
+
+
+//  makeSound-section
+
+
+
+ function makeSound(key){
+    switch (key) {
         case "w":
         var audio = new Audio('sounds/tom-1.mp3');
         audio.play();
@@ -76,20 +98,7 @@ function eventListener() {
         default:console.log(innerHTML)
         break;
      }
-}
-document.addEventListener("keypress", function(event){
-    switch (this.event) {
-        case "w":
-        var audio = new Audio('sounds/tom-1.mp3');
-        audio.play();
-        break;
-    
-        default:console.log(event)
-        var audio = new Audio('sounds/tom-1.mp3');
-        audio.play();
-        break;
-    }
- })
+ }
 
 
 
