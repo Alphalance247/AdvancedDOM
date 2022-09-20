@@ -7,10 +7,10 @@ document.querySelectorAll("button")[i].addEventListener("click", function(){
      })
     }
 
-document.addEventListener("keypress", function(event){
+document.addEventListener("keydown", respondEvent);
+function respondEvent (event){
     makeSound(event.key);
-});
-
+}
 
 // function-all
  
