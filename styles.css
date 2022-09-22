@@ -43,6 +43,45 @@ footer {
 .l {
   background: url("images/kick.png");
 }
+.e {
+  background: url("images/crash.png");
+}
+.r {
+  background: url("images/tom1.png");
+}
+.y {
+  background: url("images/tom4.png");
+}
+.t {
+  background: url("images/tom2.png");
+}
+.u {
+  background: url("images/tom3.png");
+}
+.i {
+  background: url("images/crash.png");
+}
+.o {
+  background: url("images/kick.png");
+}
+.f {
+  background: url("images/snare.png");
+}
+.g {
+  background: url("images/tom1.png");
+}
+.h {
+  background: url("images/snare.png");
+}
+.z {
+  background: url("images/tom4.png");
+}
+.x {
+  background: url("images/tom1.png");
+}
+.b {
+  background: url("images/tom3.png");
+}
 
 .set {
   margin: 10% auto;
@@ -78,4 +117,8 @@ footer {
   text-align: center;
   margin: 10px;
   background-color: white;
+}
+footer{
+  font-size: 2em;
+  font-weight: bold;
 }
