@@ -1,7 +1,7 @@
 
-var clickedButton = document.querySelectorAll("button").length
+var clickedButton = document.querySelectorAll(".drum").length
 for (var i = 0; i < clickedButton; i++){
-    document.querySelectorAll("button")[i].addEventListener("click", function() {
+    document.querySelectorAll(".drum")[i].addEventListener("click", function() {
         this.innerHTML;
         makeSound(this.innerHTML);
         buttonAnimation(this.innerHTML);
@@ -125,11 +125,11 @@ function makeSound(key) {
 // adding of animations
 
 function buttonAnimation(newKey) {
-    var documentRep = document.querySelector("."+ newKey);
-    documentRep.classList.add("pressed");
+    
+    document.querySelector("."+ newKey).classList.add("pressed");
 
     setTimeout( function() {
-        documentRep.classList.remove("pressed");  
+        document.querySelector("."+ newKey).classList.remove("pressed");  
     }, 100);
 }
 
