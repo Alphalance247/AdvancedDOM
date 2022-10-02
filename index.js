@@ -9,10 +9,10 @@ for (var i = 0; i < clickedButton; i++){
 }
 
 
-document.addEventListener("keydown", function (event) {
-    makeSound(event.key)
-    buttonAnimation(event.key)
-} )
+// document.addEventListener("keydown", function (event) {
+//     makeSound(event.key)
+//     buttonAnimation(event.key)
+// } );
 
 
 function makeSound(key) {
@@ -22,7 +22,7 @@ function makeSound(key) {
         audio.play();
         break;
 
-        
+
         case "a":
         var audio = new Audio('sounds/tom-2.mp3');
         audio.play();
