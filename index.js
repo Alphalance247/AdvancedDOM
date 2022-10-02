@@ -22,6 +22,7 @@ function makeSound(key) {
         audio.play();
         break;
 
+        
         case "a":
         var audio = new Audio('sounds/tom-2.mp3');
         audio.play();
