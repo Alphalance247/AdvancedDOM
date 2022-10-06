@@ -15,12 +15,12 @@ document.addEventListener("keydown", function (event) {
 } );
 
 
-// function makeSound(key) {
-//     switch (key) {
-//         case "w":
-//         var audio = new Audio('sounds/tom-1.mp3');
-//         audio.play();
-//         break;
+function makeSound(key) {
+    switch (key) {
+        case "w":
+        var audio = new Audio('sounds/tom-1.mp3');
+        audio.play();
+        break;
 
 
         case "a":
