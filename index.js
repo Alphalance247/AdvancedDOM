@@ -121,10 +121,10 @@ function makeSound(key) {
 
 // adding of animations
 
-// function buttonAnimation(newKey) {
-//   document.querySelector("." + newKey).classList.add("pressed");
+function buttonAnimation(newKey) {
+  document.querySelector("." + newKey).classList.add("pressed");
 
-//   setTimeout(function () {
-//     document.querySelector("." + newKey).classList.remove("pressed");
-//   }, 100);
-// }
+  setTimeout(function () {
+    document.querySelector("." + newKey).classList.remove("pressed");
+  }, 100);
+}
