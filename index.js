@@ -121,4 +121,4 @@ function makeSound(key) {
 
 // adding of animations
 
-function buttonAnimation(newKey) {}
+// function buttonAnimation(newKey) {}
