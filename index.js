@@ -74,49 +74,49 @@ function makeSound(key) {
       audio.play();
       break;
 
-    case "i":
-      var audio = new Audio("sounds/crash.mp3");
-      audio.play();
-      break;
+  //   case "i":
+  //     var audio = new Audio("sounds/crash.mp3");
+  //     audio.play();
+  //     break;
 
-    case "o":
-      var audio = new Audio("sounds/kick-bass.mp3");
-      audio.play();
-      break;
+  //   case "o":
+  //     var audio = new Audio("sounds/kick-bass.mp3");
+  //     audio.play();
+  //     break;
 
-    case "f":
-      var audio = new Audio("sounds/snare.mp3");
-      audio.play();
-      break;
+  //   case "f":
+  //     var audio = new Audio("sounds/snare.mp3");
+  //     audio.play();
+  //     break;
 
-    case "g":
-      var audio = new Audio("sounds/tom-1.mp3");
-      audio.play();
-      break;
+  //   case "g":
+  //     var audio = new Audio("sounds/tom-1.mp3");
+  //     audio.play();
+  //     break;
 
-    case "h":
-      var audio = new Audio("sounds/snare.mp3");
-      audio.play();
-      break;
+  //   case "h":
+  //     var audio = new Audio("sounds/snare.mp3");
+  //     audio.play();
+  //     break;
 
-    case "z":
-      var audio = new Audio("sounds/tom-4.mp3");
-      audio.play();
-      break;
+  //   case "z":
+  //     var audio = new Audio("sounds/tom-4.mp3");
+  //     audio.play();
+  //     break;
 
-    case "x":
-      var audio = new Audio("sounds/kick-bass.mp3");
-      audio.play();
+  //   case "x":
+  //     var audio = new Audio("sounds/kick-bass.mp3");
+  //     audio.play();
 
-    case "b":
-      var audio = new Audio("sounds/tom-1.mp3");
-      audio.play();
-      break;
+  //   case "b":
+  //     var audio = new Audio("sounds/tom-1.mp3");
+  //     audio.play();
+  //     break;
 
-    default:
-      console.log(this.innerHTML);
-      break;
-  }
+  //   default:
+  //     console.log(this.innerHTML);
+  //     break;
+  // }
 }
 
 // adding of animations
