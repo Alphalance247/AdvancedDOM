@@ -1,16 +1,16 @@
-var clickedButton = document.querySelectorAll(".drum").length;
-for (var i = 0; i < clickedButton; i++) {
-  document.querySelectorAll(".drum")[i].addEventListener("click", function () {
-    this.innerHTML;
-    makeSound(this.innerHTML);
-    buttonAnimation(this.innerHTML);
-  });
-}
+// var clickedButton = document.querySelectorAll(".drum").length;
+// for (var i = 0; i < clickedButton; i++) {
+//   document.querySelectorAll(".drum")[i].addEventListener("click", function () {
+//     this.innerHTML;
+//     makeSound(this.innerHTML);
+//     buttonAnimation(this.innerHTML);
+//   });
+// }
 
-document.addEventListener("keydown", function (event) {
-  makeSound(event.key);
-  buttonAnimation(event.key);
-});
+// document.addEventListener("keydown", function (event) {
+//   makeSound(event.key);
+//   buttonAnimation(event.key);
+// });
 
 function makeSound(key) {
   switch (key) {
