@@ -2,8 +2,8 @@ var clickedButton = document.querySelectorAll(".drum").length;
 for (var i = 0; i < clickedButton; i++) {
   document.querySelectorAll(".drum")[i].addEventListener("click", function () {
     this.innerHTML;
-    makeSound(this.innerHTML);
-    buttonAnimation(this.innerHTML);
+    // makeSound(this.innerHTML);
+    // buttonAnimation(this.innerHTML);
   });
 }
 
